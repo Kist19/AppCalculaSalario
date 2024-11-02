@@ -1,15 +1,16 @@
 # **App Calcula salario**
 
-> Aplicativo que faz o cálculo do novo salário.
+> Aplicativo que realiza o cálculo do novo salário.
 
 ## 📱 Descrição
 
-O **App Agenda** faz o cálculo do novo salário.
+O **App Agenda** recebe a inserção de dados para o cálculo do novo salário.
 
 ## 🔧 Funcionalidades
 
 - [x] Entrada de dados (Salario)
 - [x] cálculo de novo salário
+- [x] Apresentação de resultado
 - [x] Interface simples e intuitiva
 
 ## 🚀 Tecnologias Utilizadas
@@ -18,7 +19,7 @@ O **App Agenda** faz o cálculo do novo salário.
 - [x] **Java** para desenvolvimento
 - [x] **ConstraintLayout** para interface responsiva
 - [x] **TextView**, **EditText**, **RadioButton** e **AlertDialog** para entrada e exibição de dados
-- [x] **Button** para calcular novo salário
+- [x] **Button** para calcular o novo salário
 
 ## 🛠️ Como Rodar o Projeto
 
@@ -40,30 +41,16 @@ Siga os passos abaixo para rodar o projeto localmente:
 ├── app
 │   ├── src
 │   │   ├── main
-│   │   │  ├── java/com/example/imccalculator
-│   │   │  │  ├── MainActivity.java # Atividade principal com cálculo do IMC
-│   │   │  ├──res
+│   │   │  ├── java/br/ulbra/appcalculasalario
+│   │   │  │  ├── SalarioActivity.java           # Atividade principal com AppCalculaSalario
+│   │   │  ├── res
 │   │   │  │   ├── layout
-│   │   │  │   │   ├── activity_main.xml   #Layout da tela principal
-│   │   │  
-│   └── values
-
-
-│   │   │  
-│       ├──
-strings.xml         # Strings usadas no
-app
-
-
-│   │   │  
-│       ├── colors.xml          # Cores definidas no projeto
-
-
-│   └── build.gradle                        # Configuração do
-Gradle
-
-
-└── README.md                               # Este arquivo
+│   │   │  │   │   ├── activity_main.xml     #Layout da tela principal
+│   │   │  │   └── values
+│   │   │  │       ├── strings.xml           # Strings usadas no app
+│   │   │  │       ├── colors.xml            # Cores definidas no projeto
+│   └── build.gradle                         # Configuração do Gradle
+└── README.md                                # Este arquivo
 ```
 ## 🎨 Design e Prototipagem
  
@@ -75,7 +62,7 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
 
 ## 1. Tela Principal
    
-   Cálculo de novo salário.
+   Cálculo do novo salário.
    
 ![Texto Alternativo](https://github.com/Kist19/AppCalculaSalario/blob/master/telaprincipal_appcalculasalario.jpg?raw=true)
 
