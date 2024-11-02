@@ -42,7 +42,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 │   ├── src
 │   │   ├── main
 │   │   │  ├── java/br/ulbra/appcalculasalario
-│   │   │  │  ├── SalarioActivity.java           # Atividade principal com AppCalculaSalario
+│   │   │  │  ├── SalarioActivity.java       # Atividade principal com AppCalculaSalario
 │   │   │  ├── res
 │   │   │  │   ├── layout
 │   │   │  │   │   ├── activity_main.xml     #Layout da tela principal
